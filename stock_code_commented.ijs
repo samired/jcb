@@ -1,8 +1,7 @@
 #!/home/sam/j901/bin/jconsole
 
 load 'tables/csv stats web/gethttp plot'
-
-NB. apikey variable is kept in alphakey.ijs 
+NB. apikey variable is in alphakey.ijs 
 daily =: 'TIME_SERIES_DAILY'
 quote =: 'GLOBAL_QUOTE'
 intra =: 'TIME_SERIES_INTRADAY'    NB. not used yet

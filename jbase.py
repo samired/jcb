@@ -36,7 +36,7 @@ Works with python kernel in Jupyiter.
 # define full paths to J bin folder, shared library, and profile
 
 # typical for linux/macos install in home (dylib instead of so for macos)
-pathbin= 'C:/Users/e120294/J901/bin'
+pathbin= 'C:/Users/e120294/J902/bin'
 pathdll= pathbin+'/j.dll'
 pathpro= pathbin+'/profile.ijs'
 
