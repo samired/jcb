@@ -1,7 +1,10 @@
-ma = (+/%#)\
+NB. Moving Average
+ma =: (+/%#)\
 
-NB. harmonic average
-harmonic =: 3 : 0
- (# y) % (+/ % y)
-)
+NB. Harmonic Average
+harmonic =: #%(+/@:%)
+harmonic2 =: 3 : '(# y) % (+/ % y)'
 
+NB. Normalization
+norm=: (-<./)%(>./ - <./)
+norm2=: 3 : '(y -(min y)) %((max y)-(min y))'
